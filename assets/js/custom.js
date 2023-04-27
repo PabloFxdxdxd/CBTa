@@ -16,10 +16,10 @@
 
 
 	$('.owl-carousel').owlCarousel({
-	    loop:true,
-	    margin:30,
-	    nav:true,
-	    autoplay:true,
+	    loop:false,
+	    margin:60,
+	    nav:false,
+	    autoplay:false,
 		autoplayTimeout:5000,
 		autoplayHoverPause:true,
 	    responsive:{
@@ -33,10 +33,10 @@
 	            items:3
 	        },
 	        1000:{
-	            items:4
+	            items:3
 	        },
 	        1200:{
-	            items:5
+	            items:3
 	        }
 	    }
 	})
