@@ -83,6 +83,18 @@ p {
     outline: none;
 }
 
+.course-button a {
+  background-color: #F5B51C;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  padding: 12px 20px;
+  display: inline-block;
+  outline: none;
+}
+
 a.menu-link { display: none; }
 
 @media screen and (max-width: 950px) {
@@ -929,6 +941,60 @@ section.mapa .left-content h4 em {
 
   section.mapa .first-item .first-content h4,
   section.mapa .second-item .second-content h4 {
+    text-align: center;
+  }
+
+}
+
+/* Acerca de  */
+
+section.acercade {
+    
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #001247;
+  padding: 120px 0px;
+}
+
+section.acercade .left-content {
+  color: #fff;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-style: ridge;
+  
+}
+
+section.acercade .left-content span {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+
+
+section.acercade .left-content h4 {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+section.acercade .left-content h4 em {
+    font-style: normal;
+    color: #f5a425;
+}
+
+@media screen and (max-width: 767px) {
+
+  section.acercade .left-content {
+    margin-bottom: 45px;
+  }
+
+  section.acercade .first-item .first-content h4,
+  section.acercade .second-item .second-content h4 {
     text-align: center;
   }
 
