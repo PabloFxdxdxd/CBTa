@@ -232,7 +232,7 @@ a.menu-link { display: none; }
 
 .main-menu li .sub-menu {
     position: absolute;
-    width: 160px;
+    width: 260px;
     background-color: #18233a;
     opacity: 0;
     visibility: hidden;
@@ -886,7 +886,7 @@ section.mapa {
     
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #001247;
+  /* background-color: #001247; */
   padding: 120px 0px;
 }
 
