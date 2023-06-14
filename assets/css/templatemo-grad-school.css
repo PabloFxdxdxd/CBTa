@@ -14,6 +14,11 @@ https://templatemo.com/tm-557-grad-school
 @import url("<link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900' rel='stylesheet'>");
 body {
     font-family: 'Montserrat', sans-serif;
+    background-image: url(./../images/marcaejemplo.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 /* Basic */
@@ -65,7 +70,8 @@ p {
     letter-spacing: 0.5px;
     display: inline-block;
     padding: 15px 20px;
-    border: 2px solid rgba(250,250,250,0.1);
+    border: 3px solid rgba(250, 250, 250, 0.507);
+    background-color: #F5B51C;
 }
 
 
@@ -81,6 +87,18 @@ p {
     padding: 12px 20px;
     display: inline-block;
     outline: none;
+}
+
+.course-button a {
+  background-color: #F5B51C;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  padding: 12px 20px;
+  display: inline-block;
+  outline: none;
 }
 
 a.menu-link { display: none; }
@@ -489,11 +507,9 @@ section.features .col-4 {
 }
 
 
-
-/* Acerca de  */
+/* ¿Porque elegir esta institucin?  */
 
 section.why-us {
-    background-color: #001247;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
@@ -501,6 +517,8 @@ section.why-us {
 
 #tabs {
   text-align: center;
+  background-color: #001247;
+  padding-top: 15px;
 }
 #tabs ul {
   margin: 0;
@@ -516,6 +534,7 @@ section.why-us {
   clear: both;
   content: "";
   display: table;
+  
 }
 #tabs ul li {
   display: block;
@@ -582,12 +601,12 @@ section.why-us {
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #fff;
+    color: #001247;
     margin-bottom: 30px;
 }
 
 #tabs p {
-    color: #fff;
+    color: #000000;
     font-size: 15px;
     line-height: 28px;
 }
@@ -595,6 +614,9 @@ section.why-us {
 .tabs-content {
     margin-top: 60px;
     text-align: left;
+    background-color: #fff;
+    border-style: double;
+    border-width: 3px;
 }
 
 @media screen and (max-width: 767px) {
@@ -794,12 +816,11 @@ section.coming-soon form button {
 
 
 
-/* Courses */
+/* Carreras Principal */
 
 section.courses {
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #001247;
     padding-bottom: 100px;
     padding: 0px 30px 100px 30px;
 }
@@ -891,11 +912,14 @@ section.mapa {
 }
 
 section.mapa .left-content {
-  color: #fff;
+  color: #000000;
+  background-color: #fff;
   padding: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
   border-style: ridge;
+  background-color: #ffffff71;
+  font-weight: bold;
   
 }
 
@@ -910,9 +934,10 @@ section.mapa .left-content span {
 section.mapa .left-content h4 {
     margin-top: 20px;
     font-size: 30px;
-    color: #fff;
+    color: #001247;
     font-weight: 800;
     letter-spacing: 0.5px;
+    padding-right: 0%;
     line-height: 40px;
     margin-bottom: 20px;
 }
@@ -931,6 +956,143 @@ section.mapa .left-content h4 em {
   section.mapa .second-item .second-content h4 {
     text-align: center;
   }
+
+}
+
+/* Acerca de  */
+
+section.acercade {
+    
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #001247;
+  padding: 120px 0px;
+}
+
+section.acercade .left-content {
+  color: #fff;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-style: ridge;
+  
+}
+
+section.acercade .left-content span {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  
+}
+
+
+
+section.acercade .left-content h4 {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+section.acercade .left-content h4 em {
+    font-style: normal;
+    color: #f5a425;
+}
+
+@media screen and (max-width: 767px) {
+
+  section.acercade .left-content {
+    margin-bottom: 45px;
+  }
+
+  section.acercade .first-item .first-content h4,
+  section.acercade .second-item .second-content h4 {
+    text-align: center;
+  }
+
+}
+
+/* Carreras Individuales */
+
+section.carreras {
+    
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #ffffff;
+  background-image: url(./../images/marcaejemplo.png);
+  background-attachment: fixed;
+  padding: 120px 0px;
+}
+
+section.carreras .left-content {
+color: #fff;
+
+}
+
+
+section.carreras .left-content span {
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 0.5px;
+}
+
+.titulo_carrera {
+margin-top: 20px;
+font-size: 40px;
+font-weight: 800;
+letter-spacing: 0.5px;
+line-height: 40px;
+margin-bottom: 20px;
+font-style: normal;
+color: #f5a425;
+text-align: center;
+}
+
+section.carreras .left-content h4 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #001247;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+section.carreras .left-content h4 em {
+  font-style: normal;
+  color: #f5a425;
+}
+
+section.carreras .left-content .main-button {
+margin-top: 30px;
+}
+
+.video-item {
+position: relative;
+width: 100%;
+max-width: 600px;
+margin: 0px auto 0;
+}
+
+@media screen and (max-width: 767px) {
+
+section.carreras .left-content {
+  margin-bottom: 45px;
+}
+
+section.carreras .first-item .first-content h4,
+section.carreras .second-item .second-content h4 {
+  text-align: center;
+}
+
+}
+
+.texto_parrafos{
+
+  color: rgb(0, 0, 0);
+  font-size: larger;
 
 }
 
@@ -956,17 +1118,7 @@ section.video .left-content span {
   letter-spacing: 0.5px;
 }
 
-.titulo_carrera {
-  margin-top: 20px;
-  font-size: 40px;
-  font-weight: 800;
-  letter-spacing: 0.5px;
-  line-height: 40px;
-  margin-bottom: 20px;
-  font-style: normal;
-  color: #f5a425;
-  text-align: center;
-}
+
 
 section.video .left-content h4 {
     margin-top: 20px;
