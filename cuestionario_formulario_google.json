@@ -1,0 +1,102 @@
+{
+    "title": "Cuestionario de Aspiraciones, Motivaciones y Habilidades Blandas",
+    "description": "Formulario para estudiantes de quinto semestre de bachillerato. Por favor responde con sinceridad.",
+    "questions": [
+        {
+            "type": "text",
+            "label": "Nombre completo"
+        },
+        {
+            "type": "text",
+            "label": "Edad"
+        },
+        {
+            "type": "text",
+            "label": "Grupo"
+        },
+        {
+            "type": "multiple_choice",
+            "label": "¿Te interesa continuar tus estudios en la universidad?",
+            "options": [
+                "Sí",
+                "No",
+                "No estoy seguro/a"
+            ]
+        },
+        {
+            "type": "text",
+            "label": "¿Ya tienes alguna universidad en mente? ¿Cuál?"
+        },
+        {
+            "type": "text",
+            "label": "¿Qué carrera te gustaría estudiar y por qué?"
+        },
+        {
+            "type": "multiple_choice",
+            "label": "¿Te interesa comenzar a trabajar al terminar el bachillerato?",
+            "options": [
+                "Sí",
+                "No",
+                "Depende de las circunstancias"
+            ]
+        },
+        {
+            "type": "text",
+            "label": "¿Qué tipo de trabajo te gustaría tener?"
+        },
+        {
+            "type": "checkbox",
+            "label": "¿En qué área te gustaría desarrollarte profesionalmente?",
+            "options": [
+                "Salud",
+                "Educación",
+                "Tecnología",
+                "Arte y cultura",
+                "Administración y negocios",
+                "Agropecuario",
+                "Otro"
+            ]
+        },
+        {
+            "type": "text",
+            "label": "¿Qué actividades disfrutas hacer en tu tiempo libre?"
+        },
+        {
+            "type": "text",
+            "label": "¿Qué esperas aprender o lograr en esta materia?"
+        },
+        {
+            "type": "text",
+            "label": "¿Cómo crees que esta materia puede ayudarte en tu futuro académico o laboral?"
+        },
+        {
+            "type": "text",
+            "label": "¿Te consideras una persona que trabaja bien en equipo? ¿Por qué?"
+        },
+        {
+            "type": "multiple_choice",
+            "label": "¿Qué tan fácil se te hace comunicar tus ideas con claridad?",
+            "options": [
+                "Muy fácil",
+                "Algo difícil",
+                "Muy difícil"
+            ]
+        },
+        {
+            "type": "text",
+            "label": "¿Cómo reaccionas ante los problemas o situaciones difíciles?"
+        },
+        {
+            "type": "text",
+            "label": "¿Qué tan organizado/a eres con tus tareas y responsabilidades?"
+        },
+        {
+            "type": "text",
+            "label": "¿Qué valoras más en una relación de trabajo o estudio con otras personas?"
+        },
+        {
+            "type": "text",
+            "label": "¿Qué habilidad personal te gustaría mejorar este semestre?"
+        }
+    ]
+}
